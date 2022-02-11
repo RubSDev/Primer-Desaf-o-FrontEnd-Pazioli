@@ -1,0 +1,885 @@
+/*styles Ruben Nav */
+
+body {
+  width: 100%;
+  margin: 0;
+}
+/*styles Ruben Nav */
+nav {
+  margin: 0;
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+}
+#containerNav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+#buttonNav {
+  color: white;
+  border-radius: 10px;
+  border: none;
+  height: 35px;
+  width: 129px;
+}
+.imgNav {
+  margin: 0 15px 0 15px;
+}
+#optionNav {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  nav {
+    width: 100%;
+    margin: 0;
+  }
+  #containerNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 20px;
+  }
+  #optionNav {
+    transition: ease all 0.2s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+  }
+  #LogoNav {
+    position: absolute;
+    top: 20px;
+    left: 0;
+  }
+}
+
+/* Section1 "Rubs" */
+main {
+  height: 100%;
+  width: 100%;
+}
+.button-black {
+  background-color: black;
+}
+.button-black:hover {
+  background-color: #3e3a39;
+  cursor: pointer;
+}
+#containerPSectionTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 170px;
+  margin-top: 40px;
+}
+#buttonPSectionB {
+  color: white;
+  border-radius: 10px;
+  border: none;
+  height: 35px;
+  width: 1005;
+  padding-left: 25px;
+  padding-right: 25px;
+  letter-spacing: 2px;
+  margin-right: 5px;
+  font-size: 16px;
+}
+#buttonPSectionBV {
+  color: white;
+  border-radius: 10px;
+  border: none;
+  height: 38px;
+  width: 100%;
+  letter-spacing: 2px;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#buttonPSectionW {
+  background-color: white;
+  border-radius: 10px;
+  border: black solid 1px;
+  height: 35px;
+  margin-left: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 16px;
+}
+#titleOneIP {
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-family: "Times New Roman", Times, serif;
+}
+#parrafoOnePS {
+  color: gray;
+  letter-spacing: 1px;
+}
+#containerRSOne {
+  display: none;
+  padding-bottom: 25px;
+}
+#pianoBlakcPS {
+  margin-top: 90px;
+  width: 372px;
+  height: 310px;
+  margin-bottom: 30px;
+}
+#continerBPS {
+  margin-top: 15px;
+}
+#containerVideoP {
+  width: 100%;
+  position: absolute;
+  top: 80px;
+}
+
+#containerCardPianoCafe {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  height: 700px;
+}
+
+@media screen and (min-width: 768px) {
+  #titleOneIP {
+    font-size: 80px;
+    letter-spacing: 8px;
+  }
+  #parrafoOnePS {
+    font-size: 20px;
+  }
+  #containerPSectionTitle {
+    height: 350px;
+  }
+  #containerVideoP {
+    width: 100%;
+    position: absolute;
+    top: 220px;
+  }
+  #pianoBlakcPS {
+    margin-top: 30px;
+    width: 789px;
+    height: 654px;
+  }
+  #containerRSOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 95px;
+    align-items: flex-end;
+  }
+  .logoRSSOne {
+    margin: 15px;
+  }
+  #buttonPSectionB {
+    margin-right: 10px;
+    width: 193.81px;
+  }
+  #buttonPSectionW {
+    margin-left: 10px;
+
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  #containerCardPianoCafe {
+    margin-top: 120px;
+    flex-direction: row;
+  }
+}
+
+#filterBlagFrad {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.01) 0%,
+    rgba(0, 0, 0, 0.7) 30%,
+    rgba(0, 0, 0, 0.7) 70%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+#contenTitleV {
+  margin-top: 20px;
+  width: 385px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#videoPSOne {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  right: 0;
+  top: 645px;
+  position: absolute;
+  z-index: -3;
+  filter: opacity(35%);
+}
+
+#titleVideoS {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+}
+#pianoImagV {
+  width: 280px;
+  height: 238px;
+  margin-left: 50px;
+}
+
+#containerCardSOne {
+  background-image: linear-gradient(#404040, rgb(212, 211, 211));
+  width: 100%;
+
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.continerBPS {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+#titlecardV {
+  font-size: 28px;
+  text-align: center;
+  margin-top: 15px;
+  font-family: "Times New Roman", Times, serif;
+}
+#containerStars {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 15px 0 10px 0;
+  align-items: center;
+}
+#stastImg {
+  height: 20px;
+  width: 150px;
+}
+
+#titlecardVDos {
+  font-size: 28px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: "Times New Roman", Times, serif;
+}
+#texVCD {
+  text-align: center;
+  font-size: 18px;
+  height: 180px;
+  width: 100%;
+  margin-top: 15px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+}
+#containerDataPV {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 35px;
+}
+@media screen and (min-width: 768px) {
+  #containerCardSOne {
+    height: 600px;
+    background-image: none;
+    max-width: 40%;
+    align-items: flex-start;
+    text-align: left;
+  }
+  #filterBlagFrad {
+    height: 750px;
+  }
+  #texVCD {
+    text-align: left;
+  }
+  #titleVideoS {
+    font-size: 42px;
+    text-align: center;
+    width: 440px;
+    margin-left: 400px;
+  }
+  #contenTitleV {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  #videoPSOne {
+    min-width: 100%;
+    min-height: 850px;
+    position: absolute;
+    top: 950px;
+  }
+  #containerDataPV {
+    margin: 0;
+  }
+  #pianoImagV {
+    width: 540px;
+    height: 520px;
+    margin: 0;
+  }
+}
+strong {
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+/* Section2 Cards Rubs */
+
+#sectionCardsP {
+  width: 385px;
+  height: 1700px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.containerCard {
+  border-radius: 10px;
+  width: 280px;
+  height: 380px;
+  box-shadow: 0px 0px 45px 25px #dddddd;
+  padding: 20px;
+}
+
+#titleH2Cards {
+  font-size: 40px;
+  width: 300px;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 25px;
+}
+.imgeP {
+  width: 245px;
+  height: 216px;
+}
+#imgezTP {
+  width: 245px;
+  height: 216px;
+}
+#containerimgp {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#dotsCard {
+  width: 100%;
+}
+#nameP {
+  padding-top: 15px;
+  font-size: 25px;
+}
+#containerDataP {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+#containerBC {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+#markertCar {
+  width: 30px;
+  height: 30px;
+  padding: 9px;
+  border-radius: 7px;
+}
+#markertCar:hover {
+  background-color: #3e3a39;
+  cursor: pointer;
+}
+#buttonMP {
+  background-color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 7px;
+}
+#buttonVM {
+  color: white;
+
+  border-radius: 10px;
+  width: 150px;
+  height: 45px;
+}
+#containerBVM {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  #titleH2Cards {
+    font-size: 65px;
+    width: 584px;
+    letter-spacing: 2px;
+    margin-top: 0;
+  }
+  #sectionCardsP {
+    width: 100%;
+    height: 800px;
+    margin: 50px 0 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  #containerTCardsS {
+    width: 1280px;
+    margin-bottom: 100px;
+  }
+  #containerBVM {
+    width: 100%;
+  }
+  #containerTH2Cards {
+    display: flex;
+    justify-content: center;
+    width: 1280px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .imgeP {
+    width: 245px;
+    height: 216px;
+    position: absolute;
+  }
+  .containerCard {
+    border-radius: 10px;
+    width: 280px;
+    height: 280px;
+    box-shadow: 0px 0px 45px 25px #dddddd;
+    padding: 20px;
+  }
+  #containerimgp {
+    position: absolute;
+  }
+  #containerMQ {
+    padding-top: 110px;
+  }
+  #imgezTP {
+    width: 245px;
+    height: 216px;
+    position: absolute;
+  }
+}
+
+* {
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+/* Styles section Cards Pianos Rub */
+#sectionCardsP {
+  width: 100%;
+  height: 1600px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  div {
+    h2 {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-size: 30px;
+    }
+  }
+}
+.containerCard {
+  border-radius: 10px;
+  width: 280px;
+  height: 380px;
+  box-shadow: 0px 0px 45px 25px #dddddd;
+  padding: 20px;
+}
+
+.imgeP {
+  width: 245px;
+  height: 216px;
+}
+#imgezTP {
+  width: 245px;
+  height: 216px;
+}
+#containerimgp {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#dotsCard {
+  width: 100%;
+}
+#nameP {
+  padding-top: 15px;
+  font-size: 25px;
+}
+#containerDataP {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+#markertCar {
+  width: 30px;
+  height: 30px;
+  padding: 9px;
+  border-radius: 7px;
+  background-color: black;
+}
+#buttonMP {
+  background-color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 7px;
+}
+#buttonVM {
+  color: white;
+
+  border-radius: 10px;
+  width: 150px;
+  height: 45px;
+}
+#containerBVM {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  #sectionCardsP {
+    width: 100%;
+    height: 660px;
+    margin: 50px 0 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+  #containerTCardsS {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+  #containerBVM {
+    width: 100%;
+  }
+  .imgeP {
+    width: 245px;
+    height: 216px;
+    position: absolute;
+  }
+  .containerCard {
+    border-radius: 10px;
+    width: 280px;
+    height: 280px;
+    box-shadow: 0px 0px 45px 25px #dddddd;
+    padding: 20px;
+  }
+  #containerimgp {
+    position: absolute;
+  }
+  #containerMQ {
+    padding-top: 110px;
+  }
+  #imgezTP {
+    width: 245px;
+    height: 216px;
+    position: absolute;
+  }
+}
+
+/* Section3 Contáctanos hasta enviar "Erick" */
+
+#formContainer {
+  height: 870px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+#formTittle {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 28px;
+}
+
+#formParagraph {
+  font-weight: lighter;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-size: 19px;
+  width: 310px;
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  background-color: black;
+  width: auto;
+  opacity: 50%;
+  border-radius: 4px;
+}
+#containerFInputs {
+  width: 80%;
+}
+#contaunerForT {
+  background: linear-gradient(#5c5c5c92, #ffffff);
+  background-image: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.918),
+      rgba(255, 255, 255, 0.4)
+    ),
+    url("/images_Erick/background_form.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-size: cover;
+  background-position: center center; /*Esta hace que la imagen se centre a la perfección*/
+}
+.input-algo {
+  width: 100%;
+  height: 36px;
+}
+
+#formTellMeMore {
+  width: 100%;
+  height: 148px;
+}
+
+#formSendButton {
+  color: white;
+  width: 100%;
+  height: 52px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+#marginInputsF {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.form-desktop {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.parrafFormI {
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  #formTellMeMore {
+    width: 100%;
+    height: 192px;
+  }
+  #containerFInputs {
+    width: 100%;
+  }
+  #formContainer {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+  }
+  #joinContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .form-desktop {
+    width: 45%;
+  }
+
+  #formSendButton {
+    width: 100%;
+  }
+
+  #formTittle {
+    font-size: 40px;
+  }
+  #formParagraph {
+    font-size: 24px;
+    width: 710px;
+  }
+}
+
+/* footer "Rubs" */
+
+footer {
+  width: 100%;
+}
+#containerOneFooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#imgeLFP {
+  width: 133px;
+  height: 116px;
+  margin: 40px 0 20px 0;
+}
+.imgeSMF {
+  width: 32px;
+  height: 32px;
+  margin: 7px;
+}
+#containerPPF {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 40px 0 04px 0;
+}
+#containerPPF2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 40px 0 04px 0;
+}
+#parrafoOneF {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+#parrafoTwooF {
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+#parrafoTreeF {
+  margin-top: 50px;
+}
+
+#containerIFFooter {
+  width: 100%;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 40px;
+  padding-bottom: 30px;
+  padding-top: 70px;
+}
+@media screen and (min-width: 768px) {
+  footer {
+    width: 100%;
+    display: flex;
+    height: 244px;
+  }
+  #containerOneFooter {
+    width: 30%;
+    justify-content: flex-start;
+  }
+  #containerPianpRedes {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  #containerPPF {
+    align-items: flex-start;
+  }
+  #containerPPF2 {
+    align-items: flex-start;
+  }
+  #imgeLFP {
+    width: 200px;
+    height: 183px;
+  }
+}
+#fonfoGreDif {
+  background: linear-gradient(#ffffff, #5c5c5c);
+}
+
+/* Section4-buttonspartners "Erick" */
+#gradierGrey {
+  background: linear-gradient(#5c5c5c92, #ffffff);
+}
+
+.continerButParners {
+  display: flex;
+  justify-content: center;
+}
+.buttomParnersB {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 270px;
+  height: 100px;
+  background-color: black;
+  color: #ffffff;
+  border-radius: 50px;
+  margin: 25px 50px;
+  align-items: center;
+}
+.buttomParnersB:hover {
+  background-color: #3e3a39;
+  cursor: pointer;
+}
+.circleGrey {
+  width: 80px;
+  height: 95px;
+  margin: 0 6px;
+  background-color: gray;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+}
+.textBParners {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% - 100px);
+}
+.diplayNoneB {
+  display: none;
+}
+.radiusLefth {
+  border-radius: 10px 50px 50px 10px;
+}
+.radiusRigth {
+  border-radius: 50px 10px 10px 50px;
+}
+#titleParnersB {
+  font-size: 35px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .diplayNoneB {
+    display: flex;
+  }
+  .buttomParnersB {
+    border-radius: 50px;
+  }
+  .radiusRigthHef {
+    border-radius: 10px 50px 50px 10px;
+  }
+  .radiusRigthPiafMar {
+    border-radius: 50px 10px 10px 50px;
+  }
+}
